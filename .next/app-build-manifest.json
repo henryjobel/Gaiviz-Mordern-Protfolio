@@ -11,15 +11,25 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/dark/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dark/layout.js"
+    ],
     "/dark/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/dark/page.js"
     ],
-    "/dark/layout": [
+    "/light/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/dark/layout.js"
+      "static/chunks/app/light/layout.js"
+    ],
+    "/light/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/light/page.js"
     ]
   }
 }
